@@ -5,7 +5,7 @@ public class Logger{
     private Logger(){
     }
     public void print(){
-        System.out.println("Singleten pattern");
+        System.out.println("Singleton pattern");
     }
     public static Logger getLogger(){
         if(logger == null){
